@@ -1,3 +1,8 @@
 def square_array(array)
-  # your code here
+  new_array = []
+  while array.length |i|
+  new_array << i*i
+  
+end 
+new_array 
 end
