@@ -1,7 +1,10 @@
 def square_array(array)
   new_array = []
-  while array.length |i|
-  new_array << i*i
+  counter = 0
+while array[counter] do
+  new_array << array[counter]
+  counter += 1
+end
   
 end 
 new_array 
